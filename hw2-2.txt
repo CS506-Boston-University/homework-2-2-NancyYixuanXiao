@@ -1,0 +1,18 @@
+// First number is the weight and second number is the grade (on a scale from 0 to 1)
+
+// part 1, 20 points
+Parse data to extract reviews, latitude and longitude for businesses; 2: 1
+Extract meaningful terms from reviews; 5: 1
+Create data structure similar to document-term matrix; 3: 1
+Use some method to find an appropriate number of singular vectors; 5: 1
+SVD on document-term structure; 5: 1 
+
+// part 2, 25 points
+Input to cluster is based on the output of SVD; 5: 1
+Cluster data using kmeans, hierarchical and gmm; 10: 1
+Clusters have little overlap; 5: 0.7 // some significant overlap
+Clusters have meaningful labels; 5: 1
+
+// part 3, 15 points
+Compare results with part 1; 15: 1
+
